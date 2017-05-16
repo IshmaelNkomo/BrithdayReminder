@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A148C"
+    android:isScrollContainer="true"
+    tools:context="com.example.admin.brithdayreminder.MainActivity">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            android:text="Happy Birthday John Doe"
+            android:textSize ="9pt"
+            android:background="#F3E5F5"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/happy"
+            android:scaleType="fitCenter"
+            android:layout_alignBottom="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#81C784"
+            android:text="Happy birthdat to you, happy birthday dear Ishmael, happy brithday to you :)"
+            android:layout_marginBottom="33dp"
+            android:layout_above="@+id/textView5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="26dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginRight="24dp"
+            android:text="From Ishmael Nkomo"
+            android:textAllCaps="true"
+            android:textColor="#FFEB3B"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
